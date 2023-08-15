@@ -36,7 +36,7 @@ Welcome to the Bug Finding and Fixing Challenge!:space_invader: In this task, yo
 4. Quality of explanations in the bug fixes.
 
 ## Challenge Code
-[Bug Hunt]([https://github.com/cognizance-amrita/OS-DOMAIN-TASK-2023/blob/main/bughunt.cpp](https://github.com/cognizance-amrita/OS-DOMAIN-TASK-2023/blob/main/TASK-2/bughunt.cpp))
+[Bug Hunt](https://github.com/cognizance-amrita/OS-DOMAIN-TASK-2023/blob/main/bughunt.cpp](https://github.com/cognizance-amrita/OS-DOMAIN-TASK-2023/blob/main/TASK-2/bughunt.cpp)
 
 
 Feel free to reach out if you have any questions. Good luck, and happy bug hunting!
