@@ -35,10 +35,20 @@ Welcome to the Bug Finding and Fixing Challenge!:space_invader: In this task, yo
 3. Proper application of Python syntax and conventions.
 4. Quality of explanations in the bug fixes.
 
-## Challenge Code
+## Challenge Code :star:
 [Bug Hunt](https://github.com/cognizance-amrita/OS-DOMAIN-TASK-2023/blob/main/TASK-2/bughunt.cpp)
 
+## Submission: 
+1. Create a branch and name it "submission"
+2. Navigate to the submission directory
+3. In the directory create a new directory called "task-2"
+4. Inside "task-2", create a file named bughuntsol.cpp"
+5. Fill in the file with your solution to the challenge code
+6. Commit changes
+7. Create a new pull request from your submission branch to main
+8. Don't merge the pull request yet!
 
+   
 Feel free to reach out if you have any questions. Good luck, and happy bug hunting!
 
 
