@@ -38,7 +38,7 @@ Welcome to the Bug Finding and Fixing Challenge!:space_invader: In this task, yo
 ## Challenge Code :star:
 [Bug Hunt](https://github.com/cognizance-amrita/OS-DOMAIN-TASK-2023/blob/main/TASK-2/bughunt.cpp)
 
-## Submission: 
+## Submission: :mailbox_with_mail:
 1. Create a branch and name it "submission"
 2. Navigate to the submission directory
 3. In the directory create a new directory called "task-2"
