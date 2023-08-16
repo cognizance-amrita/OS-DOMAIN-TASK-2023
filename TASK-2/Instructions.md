@@ -1,4 +1,4 @@
-Welcome to the Bug Finding and Fixing Challenge!:space_invader: In this task, you'll be presented with code snippets containing bugs and errors. Your objective is to identify the problems and provide appropriate solutions.:detective: This exercise will help you sharpen your debugging skills and gain valuable experience in analyzing and rectifying code issues.:sunglasses: 
+Welcome to the Bug Finding and Fixing Challenge!:space_invader: In this task, you'll be presented with a challenge code containing bugs and errors. Your objective is to identify the problems and provide appropriate solutions.:detective: This exercise will help you sharpen your debugging skills and gain valuable experience in analyzing and rectifying code issues.:sunglasses: 
 ## Instructions: :memo:
 1. Identify the issues in the provided challenge code. 
 2. Explain the problem and provide a detailed solution. 
@@ -42,10 +42,10 @@ Welcome to the Bug Finding and Fixing Challenge!:space_invader: In this task, yo
 1. Create a branch and name it "submission"
 2. Navigate to the submission directory
 3. In the directory create a new directory called "task-2"
-4. Inside "task-2", create a file named bughuntsol.cpp"
+4. Inside "task-2", create a file named "bughuntsol.py"
 5. Fill in the file with your solution to the challenge code
 6. Commit changes
-7. Create a new pull request from your submission branch to main
+7. Create a new pull request from your "submission" branch to "main"
 8. Don't merge the pull request yet!
 
    
