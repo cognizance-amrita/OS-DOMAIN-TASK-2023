@@ -1,105 +1,177 @@
-def greet(name):
-    print("Hello, " + name)  
-
-def calculate_sum(nums):
+def calc_average(numbers):
     total = 0
-    for num in nmus:  
+    count == 0  
+    for num in numbers:
         total += num
-    return toatl 
+        count += 1  
+    
+    avg = total / coun  
+    return avg
 
-def is_prime(n):
-    if n < 2:
-        return False
-    for i in range(2, sqrt(n) + 1):  
-        if n % i == 0:
-            return True  
 
-def print_prime_numbers(limit):
-    primes = []
-    num = 2
-    while len(prims) < limit:  
-        if is_prime(num):
-            primes.append(num)
-        num += 1
-    print("First", limit, "prime numbers are:", primes)
+nums = [10, 20, 30, 40, 50]
+result = calc_average(nums)
+print("Average:", resul)  
 
-name = input("Enter your name: ")
-gret(name)  
+if result % 2 = 0:  
+    print("The average is even")
+else:
+    print("The average is odd")
 
-numbers = [1, 2, 3, 4, 5]
-total = calculate_sum(number)  
+squares = [num ** 2 for num in nums  
+print("Squares:", squares)
 
-print("Sum of numbers is: " + total)  
+max_square = max(squares)
+print("Maximum square:", max_squar)  
 
-print_prime_number(5)  
 
-for i in range(len(numbers)):
-    print("Number at index", i + 1, "is:", numbers[i])  
+target_square = 900
+if target_square in squares
+    print("Target square found at index:", squares.index(target_square))  
+else:
+    print("Target square not found")
 
-x = 10
-if x > 5:
-    y = 20
-print(y)  
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+combined_list = list1 + list2
+print("Combined list:", combined_list)
 
-def factorial(x):
-    if x == 0:
+unique_list = list(set(combined_list))  
+print("Unique list:", unique_list)
+
+person = {'name': 'Alice', 'age': 25, 'city': 'New York'}
+print("Person's name:", person['name'])
+print("Person's gender:", person.get('gender', 'Unknown'))  
+
+person['age'] = 26
+print("Updated age:", person['age')
+
+person['job'] = 'Engineer'
+
+del person[city]  
+
+for key, value in person.items:
+    print(key + ': ' + value)
+
+if person['city'] = 'London':  
+    print("Person is from London")
+
+def factorial(n):
+    if n == 0:
         return 1
-    else:
-        return x * factorial(x - 1)
-print("Factorial of 5 is:", factoria(5))  
+    else
+        return n * factorial(n-1)  
 
-for i in range(1, 11):
-    print(i)
-    if i = 5:  
-        print("Halfway there!")
+print("Factorial of 5:", factorial(5))
 
-fruits = ['apple', 'banana', 'cherry']
-print("My favorite fruit is:", fruits[3])  
+numbers = range(10)
+print("Numbers:", number)  
 
-def power(base, exp):
-    result = base ** expo  
+for num in numbers
+    print(num)  
+
+class Car
+    def __init__(self, make, model):
+        self.make = make
+        self.model = model
+    
+    def info()
+        print("Car:", make, model)  
+
+my_car = Car("Toyota", "Corolla")
+my_car.info()
+
+print("Car make:", my_car.make)
+print("Car model:", my_car.model)
+
+my_tuple = (1, 2, 3, 4, 5)
+my_tuple[0] = 10  
+
+file = open('my_file.txt', 'w')
+file.write("Hello, world!"
+
+file.close  
+
+message = "Hello, world!"
+length = str.len(message)  
+
+uppercase_message = message.upper
+print("Uppercase message:", uppercase_message)
+
+sentence = "This is a sentence"
+words = sentence.split(',')
+print("Words:", words)
+
+def power(base, exponent):
+    result = base ** exponent
     return result
 
-print("2 to the power of 3 is:", power(2, 3))
+print("2^3:", power(2, 3))
 
-value = 100
-if value > 75:
-    print("High value!")
-elif value > 50:
-    print("Medium value!")
-else:
-    print("Low value!")
+stack = []
+stack.push(1)  
+stack.append(2)
+stack.append(3)
+print("Stack:", stack)
 
-text = "Hello, world!"
-print(text[7:])  
+print(stack.pop())
+print(stack.pop())
 
-colors = {'red': 1, 'green': 2, 'blue': 3}
-print("Value for 'yellow' is:", colors.get('yellow'))  
+print(stack.pop())
+
+def switch_case(case):
+    return {
+        'a': "Case a",
+        'b': "Case b",
+        'c': "Case c",
+    }[case]
+
+print(switch_case('b'))
+print(switch_case('d'))  
+
+file = open('data.txt', 'r')
+content = file.read()
+print("File content:", content)
+
+file.close()
+
+print(file.read())
 
 numerator = 10
 denominator = 0
-result = numeratr / denominator  
+result = numerator / denominaotr 
 
 print("Result:", result)
 
-age = input("Enter your age: ")
-if age < 18:  
-    print("You are a minor.")
-else:
-    print("You are an adult.")
+count = 1
+while count <= 5
+    print(count)
+    count += 1
 
-def print_square(num):
-    print("Square of", num, "is:", num * num)
+sum = 0
+for i in range(11):
+    sum += 1
 
-print_squre(5)  
+print("Sum:", sum)
 
-def cube(x):
-    return x ** 3
+my_list = [1, 2, 3, 4, 5]
+print(my_list[10])  
 
-print("Cube of 3 is:", cuube(3))  
+def greet(name, greeting="Hello"):
+    print(greeting, name)
 
-numbers = [1, 2, 3, 4, 5]
-for number in numbes:  
-    print(number)
+greet("Alice")
 
-print("End of program")
+a = 5
+b = 10
+a, b = b, a  
+
+invalid_string = "This is an \q invalid escape sequence"
+
+print(invalid_string)
+
+x = 10
+y = 3
+result = x // y  
+
+print("Result:", result)
