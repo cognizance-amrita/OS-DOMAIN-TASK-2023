@@ -39,14 +39,18 @@ Welcome to the Bug Finding and Fixing Challenge!:space_invader: In this task, yo
 [Bug Hunt](https://github.com/cognizance-amrita/OS-DOMAIN-TASK-2023/blob/main/TASK-2/bughunt.cpp)
 
 ## Submission: :mailbox_with_mail:
-1. Create a branch and name it "submission"
-2. Navigate to the submission directory
-3. In the directory create a new directory called "task-2"
-4. Inside "task-2", create a file named "bughuntsol.py"
-5. Fill in the file with your solution to the challenge code
-6. Commit changes
-7. Create a new pull request from your "submission" branch to "main"
-8. Don't merge the pull request yet!
+1. On the top right corner of the repository's page, you'll find a "Fork" button. Click on it.
+2. A popup will appear, asking where you want to fork the repository. By default, your personal GitHub account should be selected. Click on your username to fork the repository to your account.
+3. GitHub will create a copy of the repository in your account.
+4. Once the forking process is complete, you will be redirected to your forked repository's page. The repository name will include your GitHub username to differentiate it from the original repository.
+5. Navigate to your copy of the repository, create a branch and name it "submission"
+6. Navigate to the submission directory
+7. In the directory create a new directory called "task-2"
+8. Inside "task-2", create a file named "bughuntsol.py"
+9. Fill in the file with your solution to the challenge code
+10. Commit changes
+11. Create a new pull request from your "submission" branch to "main" branch of the original repository
+12. Don't merge the pull request yet!
 
    
 Feel free to reach out if you have any questions. Good luck, and happy bug hunting!
